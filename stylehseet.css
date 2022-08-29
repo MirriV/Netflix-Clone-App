@@ -1,0 +1,28 @@
+/*spacing of logo and sign in button*/
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px; 
+}
+/*resize logo*/
+img{
+    height:37px;
+}
+
+/*move sign in button to right side*/
+.signIn{
+    text-align: right;
+
+}   
+
+/*Style sign-in button*/
+button{
+    background-color: #e50914; 
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
+    border: none;
+
+
+}
