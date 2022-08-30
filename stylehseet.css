@@ -4,6 +4,21 @@ header{
     grid-template-columns: 1fr 1fr;
     padding: 26px 56px; 
 }
+/*make logo and sign-in button line-up*/
+/*.logo{
+    display:block;
+}*/
+
+/*adding font*/
+body{
+    font-family: Helvetica, arial, sans-serif;
+    background-color: black;
+    background-image: url(./Images/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 /*resize logo*/
 img{
     height:37px;
@@ -17,12 +32,15 @@ img{
 
 /*Style sign-in button*/
 button{
+    
     background-color: #e50914; 
     color: white;
     text-decoration: none;
     padding: 7px 17px;
     border-radius: 3px;
     border: none;
+    
 
 
 }
+
