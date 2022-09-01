@@ -19,6 +19,8 @@ body{
     
 }
 
+
+
 /*resize logo*/
 img{
     height:37px;
@@ -31,7 +33,7 @@ img{
 }   
 
 /*Style sign-in button*/
-button{
+.button{
     
     background-color: #e50914; 
     color: white;
@@ -40,7 +42,4 @@ button{
     border-radius: 3px;
     border: none;
     
-
-
 }
-
