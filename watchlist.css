@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*spacing of logo and sign in button*/
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px; 
+}
+
+/*adding font*/
+body{
+    font-family: Helvetica, arial, sans-serif;
+    background-color: black;
+    
+    
+}
+
+/*resize logo*/
+img{
+    height:37px;
+}
