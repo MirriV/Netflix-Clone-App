@@ -6,8 +6,8 @@
 
 /*spacing of logo and sign in button*/
 header{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    /*display:grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
     padding: 26px 56px; 
 }
 
@@ -20,6 +20,16 @@ body{
 }
 
 /*resize logo*/
-img{
+/*img{
     height:37px;
+}*/
+
+.netflixLogo{
+    height:37px;
+}
+
+/*Resize Image Carousel*/
+.d-block w-100{
+    height: 150px;
+    width: 200px;
 }
