@@ -31,3 +31,15 @@ body{
 h1{
     text-align: left;
 }
+/*Test-Carousel Styling*/
+
+.card {
+    white-space: nowrap;
+    
+    justify-content: space-between;
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+   }
+   
+ 

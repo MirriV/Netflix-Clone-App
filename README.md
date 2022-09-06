@@ -12,3 +12,4 @@ Once the users have logged in, they will be able to search for their desired mov
 The movies added to the watch list will remain in place even once the user has closed the page or logged out. 
 
 This app is the final project of my Front End Frameworks course being done through Codespace Academy. 
+
