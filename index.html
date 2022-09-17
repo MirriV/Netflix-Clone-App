@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <script src="https://unkpg.com/vue@3.0.2"></script>
+   <!--<script src="https://unkpg.com/vue@3.0.2"></script>--> 
     <link rel="stylesheet" href="./stylehseet.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -21,41 +22,37 @@
 
         <div class="signInBlock">
             <div class="formm">
-                <form>
+                <!--<form id="loginForm">-->
+                    
                     <h1>Sign In</h1>
+
+                    <form id="login-form">
                     <div class="info">
-                        <input class="email" type="email" placeholder="Email or phone number"> <br>
-                        <input class="email" type="password" placeholder="Password">
+                        <input id="emailLogin" name="email" class="email" type="email" placeholder="Email or phone number"> <br>
+                        <input  id="passwordLogin" class="email" name="password" type="password" placeholder="Password">
                     </div>
                     <div class="btn">
-                        <button class="btn-primary" type="submit">Sign In</button>
+                        <button id =signInButton  type="submit">Sign In</button>
                     </div>
                    
                 </form>
 
             </div>
-
-    </header>
-<!--VUE-->
-
-
-<!--Link to Vue latest version-->
-<script src="https://unpkg.com/vue@3.0.2"></script>
+        </div>    
+       
+</header>
 
 
-<div id="app">{{ message }}</div>
 
-    <script>
-      const { createApp } = Vue
-    
-      createApp({
-        data() {
-          return {
-            message: 'Hello Vue'
-          }
-        }
-      }).mount('#app')
-    </script>   
+
+<!--SIGN IN VUE-->
+<script>
+   
+</script>
+
+
+
+
 
 </body>
 
